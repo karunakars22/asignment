@@ -1,10 +1,10 @@
 #include <stdio.h>
-int main()
+void fact()
 {
     int n, i;
     unsigned long long factorial = 1;
 
-    printf("Enter an integer: ");
+    printf("\n\nEnter an integer: ");
     scanf("%d",&n);
 
     // show error if the user enters a negative integer
@@ -17,8 +17,8 @@ int main()
         {
             factorial *= i;              // factorial = factorial*i;
         }
-        printf("Factorial of %d = %llu", n, factorial);
+        printf("Factorial of %d = %llu\n", n, factorial);
     }
 
-    return 0;
+   // return 0;
 }
