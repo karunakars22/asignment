@@ -1,4 +1,4 @@
-/* C Program - Find Largest of Two Numbers */
+/*karan C Program - Find Largest of Two Numbers */
 		
 #include<stdio.h>
 void big()
